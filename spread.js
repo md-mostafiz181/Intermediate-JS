@@ -14,4 +14,18 @@ console.log(marged)
 
 const numbers = [ 1, 2, 3 ,4 ] ;
 const sum = Math.max(...numbers ); 
-console.log(sum)
+console.log(sum);
+
+// more practice is spread operator
+
+const friends = [34, 56, 67, 84, 90 , 12, 20 ] ;
+const arrayMax = Math.max(...friends) ; // if i don't use spread operator here it will be NaN in result....
+console.log(arrayMax) ;
+
+const nums1 = [ 1, 2, 3, 4, 5] ;
+const nums2 = nums1 ;
+nums2.push(100)
+const nums3 = [...nums2];
+console.log(nums1)
+console.log(nums3)
+
